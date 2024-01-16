@@ -1,0 +1,68 @@
+.lastr{
+    background-color: black;
+    padding: 3%;
+}
+.leed1{
+    margin-left: 29%;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.leed{
+    margin-left: 33%;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.leed2{
+    margin-left: 37%;
+    margin-top: 4%;
+    color: white;  
+    font-family:  Helvetica, sans-serif; 
+}
+.leed3{
+    margin-left: 37%;
+    margin-top: 4%;
+    padding: 10px; 
+}
+.leed4{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+}
+.leed5{
+    border: 1px solid wheat;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: bisque;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.imgsoc{
+    float: right;
+    margin-right: 4%;
+    margin-top: 3%;
+}
+.leed6{
+    color: bisque;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.leed1:hover{
+    color: red;
+}
+.leed:hover{
+    color: red;
+}
+.leed2:hover{
+    color: red;
+}
+
+.leed5,.leed6:hover{
+    color: red;
+}

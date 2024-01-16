@@ -1,0 +1,113 @@
+
+.roller {
+  display: flex;
+  background-color: black;
+  margin: -0%;
+  position:sticky;
+  padding-top: 5px;
+}
+.imgemoji{
+  height: 22px;
+  width: 22px;
+  border-radius: 51px;
+  float: left;
+}
+.slide1 {
+  display: flex;
+  color: red;
+  font-weight: bold;
+  font-size: large;
+  justify-content: space-between;
+  animation-name: slideRightToLeft ;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  
+  animation-iteration-count: infinite; 
+
+} 
+
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(240%);
+  }
+  100% {
+    /* transform: translateX(-150%); */
+  }
+}
+
+
+.doc-1 {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 590px;
+  display: flex;
+}
+
+.doc-1 p {
+ margin-left: 30px;
+  display: flex;
+  font-size: large;
+}
+.nav1{
+  color: red;
+}
+.nav1:hover{
+  color: white;
+}
+.nav2{
+  color: red;
+}
+.nav2:hover{
+  color: white;
+}
+.nav3{
+  color: red;
+}
+.nav3:hover{
+  color: white;
+}
+.nav4{
+  color: red;
+}
+.nav4:hover{
+  color: white;
+}
+.nav5{
+  color: red;
+}
+.nav5:hover{
+  color: white;
+}
+
+.twic{
+  padding: 1%;
+  border: 1px solid;
+  background-color:lightslategrey;
+}
+.slogoimg{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 31%;
+  margin-top: 7px;
+  border-color:brown ;
+}
+.slogoimg:hover{
+  transition: all 0.5s linear 0.25;
+  transform: scale(1.1);
+  scroll-behavior: initial;
+}
+.slogpa{
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: serif;
+  margin-left: 37%;
+  color: white;
+}
+.slogpa:hover{
+  color:gold;
+  
+}

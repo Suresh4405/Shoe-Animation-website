@@ -1,0 +1,148 @@
+
+.blogspar{
+    margin-left: 40%;
+    font-size: 3rem;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+.total{
+    
+   
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    float: left;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.containers{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.containers:hover> .cead{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cead{
+    height: 80%;
+    width: 80%;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front,.back{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front{
+    background-image: url("../assets/Nike.jpg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+
+}
+.back{
+    background-color: red;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+
+
+
+.containers1{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.containers1:hover> .cead1{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cead1{
+    height: 80%;
+    width: 80%;
+    /* position: relative; */
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front1,.back1{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front1{
+    background-image: url("../assets/snek.jpeg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+
+}
+.back1{
+    background-color: palegreen;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+
+
+.containers-2{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.containers-2:hover> .cead-2{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cead-2{
+    height: 80%;
+    width: 80%;
+    /* position: relative; */
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front-2,.back-2{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 2rem; */
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front-2{
+    background-image: url("../assets/snek1.jpg");
+    background-size:450px;
+    background-repeat: no-repeat;
+
+}
+.back-2{
+    background-color: green;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}

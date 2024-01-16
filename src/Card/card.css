@@ -1,0 +1,69 @@
+.csds{
+    background-color: lightyellow;
+}
+.carimgs{
+    height: 180px;
+    width: 190px;
+    margin: auto;
+    cursor: pointer;
+}
+.carimgs:hover{
+    transition: all 0.5s linear 0.25;
+    transform: scale(1.1);
+    scroll-behavior: initial;
+}
+.mediam{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.Cardalign{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;  
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-color: lightyellow;
+   
+     
+}
+.smalle{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.Top-color{
+    display: flex;
+    background-color:lightgoldenrodyellow;
+    overflow-y: auto;
+  }
+  .Back-img{
+    background-image: url("../assets/snek.jpeg");
+    background-size: 900px;
+    width: 1000px;
+    height: 750px;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 16%;
+  }
+  .Back-img:hover{
+    /* transition: all 0.2s linear 0.5; */
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-delay: 1.30s;
+    transform: scale(1.1);
+    scroll-behavior:smooth;
+
+  }
+  .Para1{
+    margin-top: 15%;
+    margin-left: 2%;
+   font-size: 3rem;
+    color: aliceblue;
+  }
+  .Para1:hover{
+    color: black;
+  }

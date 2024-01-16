@@ -1,0 +1,140 @@
+
+
+.totaled{
+    
+   
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    float: left;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.contes{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.contes:hover> .oers{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.oers{
+    height: 80%;
+    width: 80%;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front4,.back4{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front4{
+    background-image: url("../assets/ear2.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+
+}
+.back4{
+    background-color: red;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+
+
+
+.containers5{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.containers5:hover> .cead5{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cead5{
+    height: 80%;
+    width: 80%;
+    /* position: relative; */
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front5,.back5{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front5{
+    background-image: url("../assets/ear4.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+
+}
+.back5{
+    background-color: palegreen;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+
+
+.containers6{
+    width: 350px;
+    height: 500px;
+    perspective: 600px;
+}
+.containers6:hover> .cead6{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.cead6{
+    height: 80%;
+    width: 80%;
+    /* position: relative; */
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+} 
+.front6,.back6{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 2rem; */
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front6{
+    background-image: url("../assets/ear7.jpeg");
+    background-size:400px;
+    background-repeat: no-repeat;
+
+}
+.back6{
+    background-color: green;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.dumy{
+    color: lightyellow;
+}
